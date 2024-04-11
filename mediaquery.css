@@ -1,0 +1,339 @@
+
+@media screen and (max-width: 1700px){
+    .formacao-box{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1400px){
+    .interface{
+        font-size: 14px;
+    }
+    .interface .logo a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1208px){
+    
+
+    .img-info-basic img{
+        width: 250px;
+        height:250px;
+    }
+    
+    .info-basic h1{
+        font-size: 28px;
+    }
+
+    .topo-site{
+        padding-bottom: 30px;
+    }
+
+    .flex-exp a{
+        display: flex;
+        justify-content: center;
+    }
+    .exp-img{
+        width: 250px;
+        height: 350px;
+    }
+    .especialidades h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1150px){
+    #btn1{
+        display: none;
+    }
+    .interface .menu-desktop ul{
+        display: none;
+    }
+    .btn-abrir-menu ion-icon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1008px){
+    .info-basic{
+        margin: 0px 45px;
+    }
+    .flex-formacao{
+        padding: 60px 0px;
+    }
+    .txt-inter h2{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 944px){
+    
+    .info-basic{
+        flex-direction: column;
+    }
+    .img-info-basic img{
+        display: none;
+    }
+    .habilidades-interpessoais{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .especialidades{
+        padding: 160px 4% 0px;
+    }
+    .habilidades-interpessoais img{
+        display: none;
+    }
+    .flex-formacao{
+        flex-direction: column;
+        max-width: 30rem;
+    }
+    .flex-exp{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 598px){
+    .info-basic {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        max-width: 23rem;
+    }
+    .img-info-basic img{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .habilidades-interpessoais{
+        max-width: 20rem;
+        padding: 0;
+        gap: 15px;
+        text-align: left;
+        flex-direction: column-reverse;
+    }
+    .intere-hobb{
+        max-width: 30rem;
+    }
+    .intere-hobb p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 508px){
+    section{
+        padding: 0 8%;
+    }
+    .info-basic h1{
+        font-size: 19.5px;
+    }
+    .info-basic h2{
+        font-size: 16px;
+    }
+    .info-basic p{
+        font-size: 14px;
+    }
+    .span-formaçao1{
+        display: none;
+    }
+    .span-formaçao2{
+        color: rgb(108, 0, 0);
+    }
+    .flex-formacao{
+        padding: 20px 0;
+    }
+    .intere-hobb{
+        max-width: 20rem;
+    } 
+    .interesses-e-hobbies{
+        padding: 0 ;
+    }
+    .hobbies-icons ion-icon{
+        color: rgb(108, 0, 0);
+    }
+    .hobbies-icons span{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .txt-inter h2{
+        text-align: center
+    }
+    .txt-inter p{
+        text-align: center
+    }
+    .exp-img{
+        width: 200px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .formacao-box{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1400px){
+    .interface{
+        font-size: 14px;
+    }
+    .interface .logo a{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 1208px){
+    
+
+    .img-info-basic img{
+        width: 250px;
+        height:250px;
+    }
+    
+    .info-basic h1{
+        font-size: 28px;
+    }
+
+    .topo-site{
+        padding-bottom: 30px;
+    }
+
+    .flex-exp a{
+        display: flex;
+        justify-content: center;
+    }
+    .exp-img{
+        width: 250px;
+        height: 350px;
+    }
+    .especialidades h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1150px){
+    #btn1{
+        display: none;
+    }
+    .interface .menu-desktop ul{
+        display: none;
+    }
+    .btn-abrir-menu ion-icon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1008px){
+    .info-basic{
+        margin: 0px 45px;
+    }
+    .flex-formacao{
+        padding: 60px 0px;
+    }
+    .txt-inter h2{
+        font-size: 30px;
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 944px){
+    
+    .info-basic{
+        flex-direction: column;
+    }
+    .img-info-basic img{
+        display: none;
+    }
+    .habilidades-interpessoais{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .especialidades{
+        padding: 160px 4% 0px;
+    }
+    .habilidades-interpessoais img{
+        display: none;
+    }
+    .flex-formacao{
+        flex-direction: column;
+        max-width: 30rem;
+    }
+    .flex-exp{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 598px){
+    .info-basic {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        max-width: 23rem;
+    }
+    .img-info-basic img{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .habilidades-interpessoais{
+        max-width: 20rem;
+        padding: 0;
+        gap: 15px;
+        text-align: left;
+        flex-direction: column-reverse;
+    }
+    .intere-hobb{
+        max-width: 30rem;
+    }
+    .intere-hobb p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 508px){
+    section{
+        padding: 0 8%;
+    }
+    .info-basic h1{
+        font-size: 19.5px;
+    }
+    .info-basic h2{
+        font-size: 16px;
+    }
+    .info-basic p{
+        font-size: 14px;
+    }
+    .span-formaçao1{
+        display: none;
+    }
+    .span-formaçao2{
+        color: rgb(108, 0, 0);
+    }
+    .flex-formacao{
+        padding: 20px 0;
+    }
+    .intere-hobb{
+        max-width: 20rem;
+    } 
+    .interesses-e-hobbies{
+        padding: 0 ;
+    }
+    .hobbies-icons ion-icon{
+        color: rgb(108, 0, 0);
+    }
+    .hobbies-icons span{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .txt-inter h2{
+        text-align: center
+    }
+    .txt-inter p{
+        text-align: center
+    }
+    .exp-img{
+        width: 200px;
+        height: 300px;
+    }
+}
