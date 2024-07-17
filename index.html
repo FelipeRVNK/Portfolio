@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
     <script src="menu.js" defer></script>
+    <script src="animate.js" defer></script>
     <title>Felipe Schmidt - Portfólio</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
                 <ul>
                     <li><a href="#topo-site">Informação Básica</a></li>
                     <li><a href="#especialidades">Formação Acadêmica</a></li>
-                    <li><a href="#exp-proficional">Experiência Profissional</a></li>
+                    <li><a href="#proj-pessoais">Projetos pessoais</a></li>
                     <li><a href="#interesses-e-hobbies">Interesses e Hobbies</a></li>
                 </ul>
             </nav>
@@ -49,7 +50,7 @@
                     <ul>
                         <li><a href="#topo-site">Informação Básica</a></li>
                         <li><a href="#especialidades">Formação Acadêmica</a></li>
-                        <li><a href="#exp-proficional">Experiência Profissional</a></li>
+                        <li><a href="#exp-proficional">Projetos pessoais</a></li>
                         <li><a href="#interesses-e-hobbies">Interesses e Hobbies</a></li>
                     </ul>
                 </nav>
@@ -64,7 +65,7 @@
             <div class="info-basic">
                 <div class="txt-info-basic">
                     <h1><span>|</span> Felipe Diffonte Schmidt <span>|</span></h1>
-                    <h2>- Programmer</h2>
+                    <h2>- Dev Junior</h2>
 
                     <p>
                         Eu sou Felipe, tenho 18 anos, faço Análise e desenvolvimento de sistemas.<br>Sou uma pessoa comprometida a alcançar
@@ -87,8 +88,8 @@
             </div>
         </section>
 
-        <section class="especialidades" id="especialidades">
-            <div class="formacao-academica">
+        <section class="especialidades" id="especialidades" >
+            <div class="formacao-academica" data-animate>
                 <h1><span class="span-formaçao2">Formação Academica</span> <span class="span-formaçao1">|</span> Habilidades</h1>
                 <div class="flex-formacao">
                     <div class="formacao-box">
@@ -112,8 +113,8 @@
             </div>
         </section>
 
-        <Section class="interpessoais">
-            <div class="habilidades-interpessoais">
+        <Section class="interpessoais" >
+            <div class="habilidades-interpessoais" data-animate>
                 <div class="img-inter">
                     <img src="images/porto.jpg" alt="">
                 </div>
@@ -125,9 +126,9 @@
             </div>
         </Section>
 
-        <section class="exp-proficional" id="exp-proficional">
-            <div class="exp-box">
-                <h2><span>Experiencia</span> <span>Profissional</span></h2>
+        <section class="proj-pessoais" id="proj-pessoais" >
+            <div class="exp-box" data-animate>
+                <h2><span>Projetos</span> <span>Pessoais</span></h2>
                 <div class="flex-exp">
                     <a href="https://felipervnk.github.io/SAGGEZZA./" target="_blank">
                         <div class="exp-img" style="background-image: url(images/SAGGEZZA.png);">
@@ -144,15 +145,16 @@
                             <div class="overlay">L i n k t r e e</div>
                         </div>
                     </a>
+                    
                 </div>
             </div>
         </section>
 
-        <Section class="interesses-e-hobbies" id="interesses-e-hobbies">
-            <div class="intere-hobb">
+        <Section class="interesses-e-hobbies" id="interesses-e-hobbies" >
+            <div class="intere-hobb" data-animate>
                 <h2>Interesses <span>&</span> Hobbies</h2>
-                <p>Minha vida é como um quebra-cabeça cheio de coisas que gosto muito. Adoro praticar esportes para me divertir e relaxar. Também gosto de mexer com computadores, criando coisas novas com códigos. Viajar é algo que me deixa muito feliz, conhecendo lugares diferentes e aprendendo com isso.</p>
-                <p>Quando quero me divertir de uma maneira diferente, jogo video game. É como se eu entrasse em um mundo de fantasia e me divertisse bastante. E, claro, não posso esquecer da música, que está sempre comigo. Ela muda de acordo com o que estou fazendo e deixa cada momento mais especial.</p>
+                <p>Minha vida é como um quebra-cabeça cheio de coisas que gosto muito. Adoro praticar esportes para me divertir e relaxar. Também gosto de mexer com computadores, criando coisas novas com códigos. Viajar é algo que me deixa muito feliz, conhecendo lugares diferentes, culturas diferentes e aprendo muito com isso.</p>
+                <p>Quando quero me divertir de uma maneira diferente, jogo video game. E, claro, não posso esquecer da música, que está sempre comigo. Ela muda de acordo com o que estou fazendo e deixa cada momento mais especial.</p>
                 <div class="hobbies-icons">
                     <ion-icon name="code-slash-outline"></ion-icon>
                     <span>|</span>
@@ -176,8 +178,9 @@
             </a>
         </div>
 
-        <div class="credit">Criado por <span><i> FelipeRVNK </i></span> | Todos os direitos reservados.</div>
+        <div class="credit">Criado por <span><i> Felipe D. Schmidt </i></span> | Todos os direitos reservados.</div>
     </section>
+
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
