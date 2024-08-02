@@ -132,6 +132,18 @@
 }
 
 @media screen and (max-width: 508px) {
+    [data-animate="top"]{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    [data-animate="right"]{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    [data-animate="left"]{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
     section {
         padding: 0 8%;
     }
@@ -155,9 +167,6 @@
     }
     .intere-hobb {
         max-width: 20rem;
-    }
-    .interesses-e-hobbies {
-        padding: 0;
     }
     .hobbies-icons ion-icon {
         color: rgb(108, 0, 0);

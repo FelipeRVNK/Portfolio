@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@100&display=swap');
+
 
 *{
     margin: 0;
@@ -13,6 +18,9 @@ body {
     height: 100vh;
 }
 
+html {
+    overflow-x: hidden;
+}
 
 /* barra lateral */
 
@@ -33,9 +41,19 @@ html::-webkit-scrollbar-thumb{
 
 /* animação scroll */
 
-[data-animate]{
+[data-animate="top"]{
     opacity: 0;
     transform: translate3d(0, -70px, 0);
+    transition: opacity 1s, transform 1s;
+}
+[data-animate="right"]{
+    opacity: 0;
+    transform: translate3d(-70px, 0, 0);
+    transition: opacity 1s, transform 1s;
+}
+[data-animate="left"]{
+    opacity: 0;
+    transform: translate3d(70px, 0, 0);
     transition: opacity 1s, transform 1s;
 }
 
@@ -336,8 +354,26 @@ header > .interface{
     font-size: 36px;
 }
 
-.exp-box span {
+.exp-box h2 span {
     border-bottom: 4px solid rgb(108, 0, 0);
+}
+
+.saggezza{
+    font-family: 'Bowlby One SC', sans-serif;
+}
+.rls{
+    font-size: 35px;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 2px 7px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.pegpet{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+.parques{
+    font-family: "Ephesis", cursive;
+    font-size: 39px;
 }
 
 .flex-exp {
@@ -400,10 +436,11 @@ header > .interface{
 
 .interesses-e-hobbies{
     font-family: 'Poppins', sans-serif;
-    padding: 60px;
+    padding: 170px 70px 70px 60px;
     display: flex;
     justify-content: center;
     color: #fff;
+
 }
 .intere-hobb{
     display: flex;
