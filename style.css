@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
 
 
 *{
@@ -375,6 +376,12 @@ header > .interface{
     font-family: "Ephesis", cursive;
     font-size: 39px;
 }
+.treinoapp{
+    font-family: 'Teko', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
 
 .flex-exp {
     display: flex;
@@ -430,6 +437,16 @@ header > .interface{
     opacity: 0;
 }
 
+.overlay-logo{
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+    transition: .3s;
+}
+
+.overlay-logo:hover{
+    transform: scale(1.05);
+}
 
 
 /* --- interesses & hobbies --- */
